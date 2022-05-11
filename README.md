@@ -19,13 +19,13 @@ The project's goal is to analyze only the data that will apply to "theater" cate
 In terms of outcomes based on launch date, the results show that for "successful" campaigns, the best time of the year to start a fundraising campaign is in the month of May with 111 successful events. The months of June and July complete the podium with 100 and 87 events respectivelly. The chart shows that February, April, and August are also good options to start a campaign but definitevely not the best compared to the first three. The chart also shows that to start a fundraising campaign, Louise should avoid to launch it in December.
 Regarding "failed" events, the chart shows an interesting pattern, this is that the highest amount of failed events in the data set happened for those campaigns launched in May. This leads to investigate and analyze the data set even more to find if there is another factor that impacts the rate of success for a given event. 
 In terms of canceled events, the chart shows that there is a constant number of events that were canceled with peaks in January and the lowest point in July.
+![](Resources/Theater_Outcomes_vs_Launch.png)
 
-![](images/Theater_Outcomesvs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 Considering that there is more to analyze than rate of success based on launch date, the analysis on outcomes based on goals shows that setting a goal too high ($45,000 to $49,999 or more) has a negative impact in the outcome of the event. On the other hand, if the fundraising campaign has a goal of less than $1000 the rate of success if higher and the rate of failure is lower. For the range of $1,000 to 29,999, the chart shows that the higher the goal, the rate of success decreases while the rate of failure increases almost proportionally. However, for the range of $25,000 to $34,000, the lines shift and the percentage of successful events start to increase, whereas the percentage of failed events start to decrease, and both present no change for the range from $35,000 to $44,999.
 
-![](images/Outcomes_vs_Goals.png)
+![](Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 During the analysis, the data set presented various challenges and difficulties that required to perform corrective actions in order to filter and extract the right data. One example of a challenging situation was with the date format. It required further reading to better understand the concept of the Unix Epoch format. Although it was not very challenging, at the beginnin, it was a not very clear format to understand or read. Another challenge was that, the data set by itself was very large, and it required the application of many formulas, filters, and pivot tables to get the right data for Louise so she can make the better choice for her fundraising campaign.
